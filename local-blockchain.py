@@ -8,7 +8,6 @@ import requests
 app = Flask(__name__)
 
 # --- CONFIG ---
-# Paste URL Web App dari Google Apps Script di sini
 GOOGLE_SHEET_API = "https://script.google.com/macros/s/AKfycbx7oMF4Poj0L1U30vM5MYx7ABt_wG18d3EQ2FmXV-WtiJjWVKCvoFx7BS5s0Iqbf7sJ/exec"
 
 class Blockchain:
@@ -21,14 +20,12 @@ class Blockchain:
         })
 
     def create_block(self, prev_hash, specific_data):
-        # Format Tanggal sesuai PDF
         waktu_sekarang = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        # Struktur Flat JSON (Sesuai PDF Hal 5)
         block = {
             'block_id': len(self.chain) + 1,
             'student_id': specific_data['student_id'],
-            'nama mahasiswa': specific_data['nama_mahasiswa'], # Spasi sesuai PDF
+            'nama mahasiswa': specific_data['nama_mahasiswa'], 
             'mata_kuliah': specific_data['mata_kuliah'],
             'nilai': specific_data['nilai'],
             'semester': specific_data['semester'],
@@ -38,7 +35,7 @@ class Blockchain:
         }
 
         # Hitung Current Hash
-        block['current hash'] = self.hash(block) # Spasi sesuai PDF
+        block['current hash'] = self.hash(block)
         
         self.chain.append(block)
         return block
