@@ -1,0 +1,62 @@
+[
+    {
+        "block_id": 1,
+        "student_id": "0",
+        "nama mahasiswa": "GENESIS",
+        "mata_kuliah": "-",
+        "nilai": "-",
+        "semester": 0,
+        "tanggal": "2025-12-29 21:14:03",
+        "dosen_pengampu": "-",
+        "prev_hash": "0",
+        "current_hash": "d4ccb62f3214aa49b2baa693e47a14eb08ddc61eb115c9e013a3ee410c5a7da5"
+    },
+    {
+        "block_id": 2,
+        "student_id": "MHS-2023-001",
+        "nama mahasiswa": "Budi",
+        "mata_kuliah": "Kriptografi (UTS)",
+        "nilai": "85",
+        "semester": 5,
+        "tanggal": "2025-12-29 21:14:36",
+        "dosen_pengampu": "Dr. Lina",
+        "prev_hash": "d4ccb62f3214aa49b2baa693e47a14eb08ddc61eb115c9e013a3ee410c5a7da5",
+        "current_hash": "8e6c7b44df68f5dbbcea58f3de9735e9377944d9683c11dc5192834d902561da"
+    },
+    {
+        "block_id": 3,
+        "student_id": "MHS-2023-001",
+        "nama mahasiswa": "Budi",
+        "mata_kuliah": "Kriptografi (UAS)",
+        "nilai": "90",
+        "semester": 5,
+        "tanggal": "2025-12-29 21:14:43",
+        "dosen_pengampu": "Dr. Lina",
+        "prev_hash": "8e6c7b44df68f5dbbcea58f3de9735e9377944d9683c11dc5192834d902561da",
+        "current_hash": "5a205d11a9c4da01d22a406ba2eb03a76e19ed34250d61232a54762fd5f4417d"
+    },
+    {
+        "block_id": 4,
+        "student_id": "MHS-2023-001",
+        "nama mahasiswa": "Budi",
+        "mata_kuliah": "Kriptografi (FINAL)",
+        "nilai": "A",
+        "semester": 5,
+        "tanggal": "2025-12-29 21:14:51",
+        "dosen_pengampu": "Dr. Lina",
+        "prev_hash": "5a205d11a9c4da01d22a406ba2eb03a76e19ed34250d61232a54762fd5f4417d",
+        "current_hash": "07f3172196441d55ad6a14942477e193242cdf42198f099d3baea1d00bbfe336"
+    },
+    {
+        "block_id": 5,
+        "student_id": "MHS-2023-001",
+        "nama mahasiswa": "Budi",
+        "mata_kuliah": "SERTIFIKAT KELULUSAN",
+        "nilai": "LULUS",
+        "semester": 5,
+        "tanggal": "2025-12-29 21:14:59",
+        "dosen_pengampu": "Kaprodi",
+        "prev_hash": "07f3172196441d55ad6a14942477e193242cdf42198f099d3baea1d00bbfe336",
+        "current_hash": "9aae41a013b665d7ff8dc9ec0e9ff1f4d2e58d5dcff388251c2278a5839a240c"
+    }
+]
